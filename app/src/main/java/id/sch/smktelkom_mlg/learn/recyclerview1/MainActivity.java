@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
             RoundedBitmapDrawable rbd = RoundedBitmapDrawableFactory.create(getResources(), bd.getBitmap());
             rbd.setCircular(true);
             arFoto[i] = rbd;
+            
         }
         a.recycle();
 
